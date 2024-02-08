@@ -164,8 +164,26 @@ input[type="buttton"] {
   border-color: transparent;
 }
 
+/* Estilos al Pie de Pagina */
+
 .footer {
   grid-area: footer;
-  border: 5px solid black;
-  background: lightpink;
+  background: #d1defa;
+  color: #454545;
+  border-top: 1px solid #fff;
+  text-align: left;
+  line-height: 70px;
+  padding-left: 25px;
+}
+
+@media (max-width: 1085px) {
+  .content{
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .peli-item{
+    width: 70%;
+  }
 }
